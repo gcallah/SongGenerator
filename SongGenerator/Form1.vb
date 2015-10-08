@@ -1,6 +1,6 @@
 ﻿Public Class Form1
     Public Property subjects As String() = {"My lady ", "My truck ", "My beer ", "Some outlaws ",
-        "A horse ", "Some cowboys ", "Hank Williams ", "Johnny Cash ", "My country "}
+        "A horse ", "Some cowboys ", "Hank Williams ", "Johnny Cash ", "My country ", "America"}
     Public Property predicates As String() = {"ran over ", "shot ", "loves ", "gambled away ", "rounded up ",
         "drank up all of ", "has captured ", "wants to kiss ", "rode down to "}
     Public Property objects As String() = {"my heart", "some whiskey", "the flag", "a deck of cards",
