@@ -1,10 +1,11 @@
 ﻿Public Class Form1
     Public Property subjects As String() = {"My lady ", "My truck ", "My beer ", "Some outlaws ",
-        "A horse ", "Some cowboys ", "Hank Williams "}
+        "A horse ", "Some cowboys ", "Hank Williams ", "Johnny Cash ", "My country "}
     Public Property predicates As String() = {"ran over ", "shot ", "loves ", "gambled away ", "rounded up ",
-        "drank up all of "}
+        "drank up all of ", "has captured ", "wants to kiss ", "rode down to "}
     Public Property objects As String() = {"my heart", "some whiskey", "the flag", "a deck of cards",
-        "the blue jeans", "some good stuff"}
+        "the blue jeans", "some good stuff", "a Chevy", "in prison", "a gambler", "your cheatin' heart",
+        "a country road"}
 
     Private Sub MakeSongButton_Click(sender As Object, e As EventArgs) Handles MakeSongButton.Click
         Dim result As String = ""
