@@ -1,16 +1,20 @@
 ﻿Public Class Form1
     Public Property subjects As String() = {"My lady ", "My truck ", "My beer ", "Some outlaws ",
-        "A horse ", "Some cowboys ", "Hank Williams ", "Johnny Cash ", "My country ", "America"}
+        "A horse ", "Some cowboys ", "Hank Williams ", "Johnny Cash ", "My country ", "America ", "My bar ",
+        "A locomotive ", "A freight train ", "Your sugar daddies ", "My windshield wipers "}
     Public Property predicates As String() = {"ran over ", "shot ", "loves ", "gambled away ", "rounded up ",
-        "drank up all of ", "has captured ", "wants to kiss ", "rode down to "}
+        "drank up all of ", "has captured ", "wants to kiss ", "rode down to ", "is filled with ", "is hunting ",
+        "square danced with ", "is made for ", "comes running back to "}
     Public Property objects As String() = {"my heart", "some whiskey", "the flag", "a deck of cards",
         "the blue jeans", "some good stuff", "a Chevy", "in prison", "a gambler", "your cheatin' heart",
-        "a country road"}
+        "a country road", "the trailer park ", "some rednecks", "low places", "my cowboy boots",
+        "that lonesome whistle", "a bartender", "all alone", "a thousand lonely nights", "that lonesome highway",
+        "the driving rain"}
 
     Private Sub MakeSongButton_Click(sender As Object, e As EventArgs) Handles MakeSongButton.Click
         Dim result As String = ""
         Dim i As Integer = 0
-        Do While i < 4
+        Do While i < 8
             VBMath.Randomize()
             Dim j As Integer = CInt(VBMath.Rnd() * (subjects.Length - 1))
             result &= subjects(j)
